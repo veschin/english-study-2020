@@ -8,6 +8,6 @@ def link(path, innerText):
 
 def button(innerText, home=False):
     if home:
-        return f"<button class='ui button column huge'>{innerText}</button>"
+        return f"<button id='home-btn' class='ui button column large'>{innerText}</button>"
     else:
-        return f"<button id='home-btn' class='ui button column huge'>{innerText}</button>"
+        return f"<button class='ui button large four wide column'>{innerText}</button>"
