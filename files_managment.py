@@ -8,17 +8,17 @@ import semantic_components as sc
 
 def create_page(num, tag):
     pattern = f"{templates_dir}/Picture{num}.html"
-    # if not glob.glob(pattern):
-    with open(pattern, "w") as new_file, \
-            open(f"{templates_dir}/base.html", "r") as base_file:
-        base_file_copy = base_file.read()
-        new_file.write(
-            base_file_copy
-            .replace("replace_title", f"Picture{num}")
-            .replace(
-                "replace_home_button",
-                f"{sc.button(sc.link('../index.html', 'Back to home'), True)}")
-            .replace("replace_body", f"{tag}"))
+    if not glob.glob(pattern):
+        with open(pattern, "w") as new_file, \
+                open(f"{templates_dir}/base.html", "r") as base_file:
+            base_file_copy = base_file.read()
+            new_file.write(
+                base_file_copy
+                .replace("replace_title", f"Picture{num}")
+                .replace(
+                    "replace_home_button",
+                    f"{sc.button(sc.link('../index.html', 'Back to home'), True)}")
+                .replace("replace_body", f"{tag}"))
 
 
 def create_index_page(templates, buttons):
