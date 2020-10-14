@@ -9,21 +9,51 @@
         crossorigin="anonymous" />
     <title>Picture10</title>
 </head>
+<!-- <div class="text container">
+    <div class="ui segment">
+        <h3></h3>
+        <p></p>
+    </div>
+</div> -->
 
 <body>
-    <button class='ui button column huge'><a href='../index.html'>Back to home</a></button>
-    <img src='../images/WhatsApp Image 2020-10-12 at 1.32.27 PM.jpeg' class='ui massive bordered image centered'>
+    
+    <button id='home-btn' class='ui button large'><a href='../index.html'>Back to home</a></button>
+    <div class='ui grid page'>
+        <div class=" row">
+            <div class="eight wide column">
+                <img src='../images/WhatsApp Image 2020-10-12 at 1.32.27 PM.jpeg' class='ui massive bordered image centered'>
+            </div>
+            <div class="eight wide column">
+
+            </div>
+        </div>
+    </div>
 </body>
 <style>
-    .grid {
+    .text {
+        margin: 10px;
+    }
+
+    .container {
         margin-top: 100px !important;
-        max-width: 30%;
-        width: 100%;
+        width: 60% !important;
         margin-left: auto !important;
         margin-right: auto !important;
     }
 
+    div.grid.page {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    img {
+        margin: 10px;
+    }
+
+
     button {
+        font-size: 1.3vw !important;
         margin: 10px !important;
     }
 </style>

@@ -15,21 +15,17 @@ def create_page(num, tag):
             new_file.write(
                 base_file_copy
                 .replace("replace_title", f"Picture{num}")
-                .replace(
-                    "replace_home_button",
-                    f"{sc.button(sc.link('../index.html', 'Back to home'), True)}")
-                .replace("replace_body", f"{tag}"))
+                .replace("replace_body", sc.grid(sc.button(sc.link('../index.html', 'Back to home'), True), tag)))
 
 
 def create_index_page(templates, buttons):
     with open("index.html", "w") as new_file, \
             open(f"{templates_dir}/base.html", "r") as base_file:
         base_file_copy = base_file.read()
-        body = "<div class='ui column grid'><div class='row column'>replace_local</div></div>"
+        body = "<div class='ui three column grid container'>replace_local</div>"
         new_file.write(
             base_file_copy
             .replace("replace_title", "Index page")
-            .replace("replace_home_button", "")
             .replace(
                 "replace_body", body.replace("replace_local", "\n".join([button for button in buttons]))))
 
