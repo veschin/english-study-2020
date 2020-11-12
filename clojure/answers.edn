@@ -95,7 +95,17 @@
  {:lesson 10
   :answers [{5 ["1 Ampere" "2 Coulomb" "3 Kilowatt" "4 Volt" "5 Watt"]}]}
  {:lesson 11
-  :answers []}
+  :answers [{1 ["1 load" "2 switch" "3 fuse" "4 wire" "5 power source"]}
+            {2 ["1 e" "2 a" "3 c" "4 f" "5 d" "6 b "]}
+            {3 ["1 It consists of a power source, two conducting wires and a load."
+                "2 It lights up."
+                "3 light bulbs, electric motors and speakers"
+                "4 It is an example of loads."
+                "5 It controls the electrical device."
+                "6 It occurs when there is a drop in the resistance or a"
+                "broken insulation."
+                "7 We can use fuses."
+                "8 It melts when too much current flows though it."]}]}
  {:lesson 12
-  :answers []}]
+  :answers [{5 ["1 undue" "2 heat-sensitive" "3 to liquefy" "4 overloading" "5 reset" "6 customers"]}]}]
 

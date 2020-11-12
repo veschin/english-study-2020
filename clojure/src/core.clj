@@ -58,6 +58,7 @@
                      [:a {:color "#fff"}]
                      [:a:hover {:color "#3b3b3b"
                                 :text-decoration "none"}]]])
+
       dir (io/file "../images/")
       templates-dir "../templates/"
       images (map str (rest (file-seq dir)))
@@ -81,5 +82,4 @@
                       head
                       body)]
   (spit "../index.html" index-template))
-
 
