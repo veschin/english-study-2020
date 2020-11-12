@@ -1,0 +1,101 @@
+[{:lesson 1
+  :answers [{1 ["1 wood"
+                "2 steel"
+                "3 ceramic"
+                "4 gold"
+                "5 glass"
+                "6 plastic"]}
+            {2 ["1-b" "2-c" "3-a" "4-f" "5-d" "6-e" "7-h" "8-g"]}
+            {3 ["1 - ferrous and non-ferrous metals"
+                "2 - Iron is soft and pasty and for this reason it is not suitable"
+                "to be used as a structural material."
+                "3 - They are used to improve some properties of the metals."
+                "4 - plastic and ceramic"
+                "5 - Yes, it is an alloy made of iron and carbon. "]}]}
+ {:lesson 2
+  :answers [{4 ["Я не настолько крутой чтобы аудирование делать через картинку"]}
+            {5 ["Мне будет трудно рисовать табличку в HTML, просто снизьте балл"]}
+            {6 ["Personal answers"]}]}
+ {:lesson 3
+  :answers [{7 ["Мы это уже обсуждали..."]}
+            {8 ["1 Fluid substances solidify into moulds taking their forms."
+                "2 Drawing is done at room temperature."
+                "3 Heat is not essential in the drawing process."
+                "4 In the past forging was done using a hammer."
+                "5 Extrusion can be done with brittle materials."
+                "6 Sheet forming is used to make many everyday objects"]}
+            {9 ["Текста нет - ответа нет"]}
+            {10 ["Текста нет - ответа нет"]}]}
+ {:lesson 4
+  :answers [{"alloy" ["сплав"]}
+            {"aluminium" ["алюминий"]}
+            {"bar" ["бар"]}
+            {"bent" ["изогнутый"]}
+            {"blacksmith" ["кузнец"]}
+            {"brass" ["латунь"]}
+            {"brick" ["кирпич"]}
+            {"bronze" ["бронза"]}
+            {"cable" ["кабель"]}
+            {"carbon" ["углерод"]}
+            {"casting" ["кастинг"]}
+            {"concrete" ["бетон"]}
+            {"copper" ["медь"]}
+            {"die" ["умереть"]}
+            {"drawing" ["рисование"]}
+            {"extrusion" ["экструзия"]}
+            {"flat" ["плоский"]}
+            {"hammer" ["молоток"]}
+            {"hollow" ["полый"]}
+            {"to improve" ["улучшить"]}
+            {"to insulate" ["утеплить"]}
+            {"machinery" ["машины"]}
+            {"mould" ["форма"]}
+            {"to oxidise" ["окислять"]}
+            {"plastic" ["пластик"]}
+            {"rod" ["стержень"]}
+            {"rolling" ["катящийся"]}
+            {"rubber" ["резинка"]}
+            {"shape" ["форма"]}
+            {"sheet" ["простынь"]}
+            {"steel" ["стали"]}
+            {"tin" ["банка"]}
+            {"tool" ["инструмент"]}
+            {"tube" ["трубка"]}
+            {"wire" ["провод"]}]}
+ {:lesson 5
+  :answers [{1 ["1 compass" "2 protractor" "3 T-square" "4 rubber" "5 pencils" "6 ruler"]}
+            {2 ["1 C" "2 B" "3 A" "4 A" "5 B" "6 B"]}]}
+ {:lesson 6
+  :answers [{3 ["ЛИСТЕНИНГ"]}]}
+ {:lesson 7
+  :answers [{1 ["Turning machine"
+                "Milling machine"
+                "Drilling machine"
+                "Shaper"
+                "Press"
+                "Band saw"
+                "Grinding machine"]}
+            {2 ["1 T" "2 F" "3 T" "4 F" "5 T" "6 T" "7 F"]}]}
+ {:lesson 8
+  :answers [{"?" ["Нечего делать..."]}]}
+ {:lesson 9
+  :answers [{1 ["1 electron"
+                "2 proton"
+                "3 neutron"]}
+            {2 ["Elements make up all substances."
+                "2 Identical atoms compose each element."
+                "3 Atoms consist of neutrons, protons and electrons."
+                "4 Inside there are neutrons and protons, while outside there"
+                "are electrons."
+                "5 Shells of electrons orbit around the nucleus."
+                "6 Valence electrons are the electrons in the outermost shell."
+                "7 Neutrons do not have any electric charge."
+                "8 Electricity is generated when valence electrons are free to"
+                "move from one atom to another."]}]}
+ {:lesson 10
+  :answers [{5 ["1 Ampere" "2 Coulomb" "3 Kilowatt" "4 Volt" "5 Watt"]}]}
+ {:lesson 11
+  :answers []}
+ {:lesson 12
+  :answers []}]
+
